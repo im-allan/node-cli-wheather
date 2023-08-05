@@ -1,0 +1,27 @@
+{
+  "name": "cli-wheather",
+  "version": "1.0.0",
+  "description": "CLI application in node with typescript that allows to see the weather of a city entered by console",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "build-start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.4.6",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.6"
+  }
+}
